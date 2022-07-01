@@ -98,10 +98,8 @@ unzip
 virt-manager
 virt-viewer
 which
-wine-gecko
-wine-mono
-winetricks
 zip
 zsh
 zsh-syntax-highlighting
 zsh-autosuggestions
+mc

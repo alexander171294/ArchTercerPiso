@@ -169,5 +169,3 @@ rm -r /home/$USERNAME/TercerPiso
 
 # Replace in the same state
 cd $pwd
-
-read -p "Press any key to resume ..."
