@@ -27,6 +27,10 @@ Installing AUR Softwares
 source $HOME/TercerPiso/configs/setup.conf
 
   cd ~
+
+  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+  echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
   mkdir "/home/$USERNAME/.cache"
   touch "/home/$USERNAME/.cache/zshhistory"
   cp ~/TercerPiso/configs/.zshrc /home/$USERNAME/.zshrc

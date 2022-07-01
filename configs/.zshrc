@@ -130,3 +130,21 @@ function rmk(){
 
 # Finalize Powerlevel10k instant prompt. Should stay at the bottom of ~/.zshrc.
 (( ! ${+functions[p10k-instant-prompt-finalize]} )) || p10k-instant-prompt-finalize
+
+# bindkey
+bindkey "^U"    backward-kill-line
+bindkey "^u"    backward-kill-line
+bindkey "^[l"   down-case-word
+bindkey "^[L"   down-case-word
+
+# alt+<- | alt+->
+bindkey "^[f" forward-word
+bindkey "^[b" backward-word
+
+# ctrl+<- | ctrl+->
+bindkey "^[[1;5D" backward-word
+bindkey "^[[1;5C" forward-word
+
+bindkey "^[[D" backward-word
+bindkey "^[[C" forward-word
+bindkey "^H" backward-kill-word
