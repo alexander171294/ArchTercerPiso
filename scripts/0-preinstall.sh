@@ -200,3 +200,5 @@ echo -ne "
                     SYSTEM READY FOR 1-setup.sh
 -------------------------------------------------------------------------
 "
+
+read -p "Press any key to resume ..."

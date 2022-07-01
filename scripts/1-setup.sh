@@ -205,3 +205,5 @@ echo -ne "
                     SYSTEM READY FOR 2-user.sh
 -------------------------------------------------------------------------
 "
+
+read -p "Press any key to resume ..."
