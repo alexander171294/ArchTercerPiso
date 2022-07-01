@@ -1,6 +1,6 @@
 --END OF MINIMAL INSTALL--
 autojump
-brave-git
+brave-bin
 bridge-utils
 dxvk-bin
 github-desktop-bin
