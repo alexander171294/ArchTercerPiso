@@ -30,6 +30,7 @@ source $HOME/TercerPiso/configs/setup.conf
   mkdir "/home/$USERNAME/.cache"
   touch "/home/$USERNAME/.cache/zshhistory"
   cp ~/TercerPiso/configs/.zshrc /home/$USERNAME/.zshrc
+  mkdir "/usr/share/zsh-sudo/"
   cp ~/TercerPiso/configs/sudo.plugin.zsh /usr/share/zsh-sudo/sudo.plugin.zsh
 
 sed -n '/'$INSTALL_TYPE'/q;p' ~/TercerPiso/pkg-files/${DESKTOP_ENV}.txt | while read line
