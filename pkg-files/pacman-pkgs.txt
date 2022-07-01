@@ -103,3 +103,5 @@ zsh-syntax-highlighting
 zsh-autosuggestions
 mc
 vlc
+bat
+lsd
