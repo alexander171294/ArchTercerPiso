@@ -5,6 +5,7 @@
 # @brief Entrance script that launches children scripts for each phase of installation.
 
 # Find the name of the folder the scripts are in
+loadkeys es
 set -a
 SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 SCRIPTS_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"/scripts
