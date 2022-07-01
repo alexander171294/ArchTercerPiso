@@ -32,6 +32,9 @@ source $HOME/TercerPiso/configs/setup.conf
   cp ~/TercerPiso/configs/.zshrc /home/$USERNAME/.zshrc
   mkdir "/usr/share/zsh-sudo/"
   cp ~/TercerPiso/configs/sudo.plugin.zsh /usr/share/zsh-sudo/sudo.plugin.zsh
+  cp ~/TercerPiso/configs/xfce4-keyboard-shortcuts.xml /home/$USERNAME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+  cp ~/TercerPiso/configs/terminalrc /home/$USERNAME/.config/xfce4/terminal/terminalrc
+  chsh /bin/zsh
 
 sed -n '/'$INSTALL_TYPE'/q;p' ~/TercerPiso/pkg-files/${DESKTOP_ENV}.txt | while read line
 do

@@ -13,3 +13,6 @@ programas adicionales como
 - 
 
 localectl set-x11-keymap es
+
+/home/username/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+/home/username/.config/xfce4/terminalrc
