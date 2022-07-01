@@ -84,7 +84,6 @@ python-pip
 qemu
 snap-pac
 snapper
-steam
 swtpm
 synergy
 terminus-font
@@ -103,3 +102,4 @@ zsh
 zsh-syntax-highlighting
 zsh-autosuggestions
 mc
+vlc

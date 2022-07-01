@@ -29,9 +29,8 @@ source $HOME/TercerPiso/configs/setup.conf
   cd ~
   mkdir "/home/$USERNAME/.cache"
   touch "/home/$USERNAME/.cache/zshhistory"
-  git clone "https://github.com/ChrisTitusTech/zsh"
-  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-  ln -s "~/zsh/.zshrc" ~/.zshrc
+  cp ~/TercerPiso/configs/.zshrc /home/$USERNAME/.zshrc
+  cp ~/TercerPiso/configs/sudo.plugin.zsh /usr/share/zsh-sudo/sudo.plugin.zsh
 
 sed -n '/'$INSTALL_TYPE'/q;p' ~/TercerPiso/pkg-files/${DESKTOP_ENV}.txt | while read line
 do
