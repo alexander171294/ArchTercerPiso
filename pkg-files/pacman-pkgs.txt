@@ -108,3 +108,8 @@ lsd
 feh
 docker
 docker-compose
+libhandy
+file-roller
+thunar-archive-plugin
+gtk-engine-murrine
+gtk-engines
