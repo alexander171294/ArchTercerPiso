@@ -9,6 +9,8 @@ lightlyshaders-git
 mangohud
 mangohud-common
 nerd-fonts-fira-code
+nerd-fonts
+nerd-fonts-hack
 nordic-darker-standard-buttons-theme
 nordic-darker-theme
 nordic-kde-git
