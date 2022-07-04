@@ -1,10 +1,7 @@
 modificar user.sh para agregar 
 
-powerlevel
+- fuentes
 repos
-escape escape
-autocompletado
-sugerencias
 programas adicionales como 
 - vscode
 - intellij
@@ -12,6 +9,3 @@ programas adicionales como
 - dbeaver
 
 localectl set-x11-keymap es
-
-/home/username/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
-/home/username/.config/xfce4/terminalrc
