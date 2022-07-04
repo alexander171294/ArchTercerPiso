@@ -91,7 +91,7 @@ pwd
   cp ~/TercerPiso/configs/xfce4-keyboard-shortcuts.xml /home/$USERNAME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
   mkdir -p /home/$USERNAME/.config/xfce4/terminal
   cp ~/TercerPiso/configs/terminalrc /home/$USERNAME/.config/xfce4/terminal/terminalrc
-  chsh /bin/zsh
+  chsh -s $(which zsh)
 
 echo -ne "
 -------------------------------------------------------------------------
