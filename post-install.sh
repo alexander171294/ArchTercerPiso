@@ -21,3 +21,5 @@ cd Qogir
 ./install.sh --tweaks round
 cd ../Qogir-icon
 ./install.sh
+cd ..
+cp -R fonts $HOME/.local/share
