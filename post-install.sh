@@ -18,4 +18,6 @@ mkdir -p $HOME/.config/xfce4/terminal
 cp ~/TercerPiso/configs/terminalrc.txt $HOME/.config/xfce4/terminal/terminalrc
 feh --bg-fill /usr/share/backgrounds/xfce/wallpaper.png
 cd Qogir
+./install.sh --tweaks round
+cd ../Qogir-icon
 ./install.sh
