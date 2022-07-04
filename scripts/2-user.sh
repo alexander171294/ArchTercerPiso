@@ -90,7 +90,7 @@ pwd
   mkdir -p /home/$USERNAME/.config/xfce4/xfconf/xfce-perchannel-xml
   cp ~/TercerPiso/configs/xfce4-keyboard-shortcuts.xml /home/$USERNAME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
   mkdir -p /home/$USERNAME/.config/xfce4/terminal
-  cp ~/TercerPiso/configs/terminalrc /home/$USERNAME/.config/xfce4/terminal/terminalrc
+  cp ~/TercerPiso/configs/terminalrc.txt /home/$USERNAME/.config/xfce4/terminal/terminalrc
   chsh -s $(which zsh)
   cp ~/TercerPiso/configs/wallpaper.png /usr/share/backgrounds/xfce/wallpaper.png
   sudo cp ~/TercerPiso/configs/vconsole.conf /etc/vconsole.conf
