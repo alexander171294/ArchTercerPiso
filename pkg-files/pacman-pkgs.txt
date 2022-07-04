@@ -106,3 +106,5 @@ vlc
 bat
 lsd
 feh
+docker
+docker-compose
