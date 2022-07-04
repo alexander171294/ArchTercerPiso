@@ -62,5 +62,5 @@ echo -ne "
                 Done - Please Eject Install Media and Reboot
 "
 
-# read -p "Press any key to reboot ..."
-# reboot
+read -p "Press any key to reboot ..."
+reboot

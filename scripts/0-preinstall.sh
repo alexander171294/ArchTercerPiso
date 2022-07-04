@@ -177,7 +177,7 @@ if [[ ! -d "/sys/firmware/efi" ]]; then
 else
     pacstrap /mnt efibootmgr --noconfirm --needed
 fi
-read -s -n 1 -p "Press any key to continue . . ."
+
 echo -ne "
 -------------------------------------------------------------------------
                     Checking for low memory systems <8G
