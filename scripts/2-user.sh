@@ -86,7 +86,7 @@ pwd
 
   cp ~/TercerPiso/configs/.zshrc /home/$USERNAME/.zshrc
   sudo mkdir "/usr/share/zsh-sudo/"
-  cp ~/TercerPiso/configs/sudo.plugin.zsh /usr/share/zsh-sudo/sudo.plugin.zsh
+  sudo cp ~/TercerPiso/configs/sudo.plugin.zsh /usr/share/zsh-sudo/sudo.plugin.zsh
   mkdir -p /home/$USERNAME/.config/xfce4/xfconf/xfce-perchannel-xml
   cp ~/TercerPiso/configs/xfce4-keyboard-shortcuts.xml /home/$USERNAME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
   mkdir -p /home/$USERNAME/.config/xfce4/terminal
@@ -94,7 +94,7 @@ pwd
   chsh -s $(which zsh)
   sudo cp ~/TercerPiso/configs/wallpaper.png /usr/share/backgrounds/xfce/wallpaper.png
   sudo cp ~/TercerPiso/configs/vconsole.conf /etc/vconsole.conf
-  feh --bg-fill /usr/share/backgrounds/xfce/wallpaper.png
+  # feh --bg-fill /usr/share/backgrounds/xfce/wallpaper.png
 
 echo -ne "
 -------------------------------------------------------------------------
