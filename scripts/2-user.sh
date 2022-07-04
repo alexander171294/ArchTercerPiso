@@ -26,19 +26,10 @@ Installing AUR Softwares
 "
 source $HOME/TercerPiso/configs/setup.conf
 
-  cd ~
-
-  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-  echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+cd ~
 
   mkdir "/home/$USERNAME/.cache"
   touch "/home/$USERNAME/.cache/zshhistory"
-  cp ~/TercerPiso/configs/.zshrc /home/$USERNAME/.zshrc
-  mkdir "/usr/share/zsh-sudo/"
-  cp ~/TercerPiso/configs/sudo.plugin.zsh /usr/share/zsh-sudo/sudo.plugin.zsh
-  cp ~/TercerPiso/configs/xfce4-keyboard-shortcuts.xml /home/$USERNAME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
-  cp ~/TercerPiso/configs/terminalrc /home/$USERNAME/.config/xfce4/terminal/terminalrc
-  chsh /bin/zsh
 
 sed -n '/'$INSTALL_TYPE'/q;p' ~/TercerPiso/pkg-files/${DESKTOP_ENV}.txt | while read line
 do
@@ -86,6 +77,21 @@ if [[ $INSTALL_TYPE == "FULL" ]]; then
     ./dotfiles-openbox/install-titus.sh
   fi
 fi
+
+
+  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+  echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
+pwd
+
+  cp ~/TercerPiso/configs/.zshrc /home/$USERNAME/.zshrc
+  sudo mkdir "/usr/share/zsh-sudo/"
+  cp ~/TercerPiso/configs/sudo.plugin.zsh /usr/share/zsh-sudo/sudo.plugin.zsh
+  mkdir -p /home/$USERNAME/.config/xfce4/xfconf/xfce-perchannel-xml
+  cp ~/TercerPiso/configs/xfce4-keyboard-shortcuts.xml /home/$USERNAME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+  mkdir -p /home/$USERNAME/.config/xfce4/terminal
+  cp ~/TercerPiso/configs/terminalrc /home/$USERNAME/.config/xfce4/terminal/terminalrc
+  chsh /bin/zsh
 
 echo -ne "
 -------------------------------------------------------------------------
