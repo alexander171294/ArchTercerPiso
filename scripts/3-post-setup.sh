@@ -31,6 +31,7 @@ source ${HOME}/TercerPiso/configs/setup.conf
 if [[ -d "/sys/firmware/efi" ]]; then
     grub-install --efi-directory=/boot ${DISK}
 fi
+read -s -n 1 -p "Press any key to continue . . ."
 
 echo -ne "
 -------------------------------------------------------------------------
