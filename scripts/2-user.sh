@@ -92,7 +92,7 @@ pwd
   mkdir -p /home/$USERNAME/.config/xfce4/terminal
   cp ~/TercerPiso/configs/terminalrc.txt /home/$USERNAME/.config/xfce4/terminal/terminalrc
   chsh -s $(which zsh)
-  cp ~/TercerPiso/configs/wallpaper.png /usr/share/backgrounds/xfce/wallpaper.png
+  sudo cp ~/TercerPiso/configs/wallpaper.png /usr/share/backgrounds/xfce/wallpaper.png
   sudo cp ~/TercerPiso/configs/vconsole.conf /etc/vconsole.conf
   feh --bg-fill /usr/share/backgrounds/xfce/wallpaper.png
 
