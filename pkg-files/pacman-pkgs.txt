@@ -105,3 +105,4 @@ mc
 vlc
 bat
 lsd
+feh
