@@ -27,3 +27,5 @@ cd ../Qogir-icon
 ./install.sh
 cd ..
 cp -R fonts $HOME/.local/share
+sudo localectl set-locale LANG=es_ES.UTF-8
+git clone https://aur.archlinux.org/ulauncher.git && cd ulauncher && makepkg -is
