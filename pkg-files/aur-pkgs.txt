@@ -3,7 +3,6 @@ autojump
 brave-bin
 bridge-utils
 dxvk-bin
-github-desktop-bin
 lightly-git
 lightlyshaders-git
 mangohud
@@ -27,3 +26,7 @@ zsh-autosuggestions
 scrub
 discord
 slack
+obs-studio
+slack-wayland
+mongodb-compass
+pacman-bin

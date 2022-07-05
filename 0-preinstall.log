@@ -120,33 +120,10 @@ Total Download Size:   10.82 MiB
 Total Installed Size:  52.93 MiB
 Net Upgrade Size:       0.11 MiB
 
-:: Proceed with installation? [Y/n] 
-:: Retrieving packages...
- glibc-2.35-6-x86_64 downloading...
- btrfs-progs-5.18.1-1-x86_64 downloading...
-checking keyring...
-checking package integrity...
-loading package files...
-checking for file conflicts...
-checking available disk space...
-:: Processing package changes...
-upgrading glibc...
-warning: /etc/locale.gen installed as /etc/locale.gen.pacnew
-Generating locales...
-  en_US.UTF-8... done
-Generation complete.
-upgrading btrfs-progs...
-:: Running post-transaction hooks...
-(1/6) Reloading system manager configuration...
-(2/6) Creating temporary files...
-(3/6) Reloading device manager configuration...
-(4/6) Arming ConditionNeedsUpdate...
-(5/6) Updating linux initcpios...
-==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'archiso'
-  -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
-==> ERROR: specified kernel image does not exist: `/boot/vmlinuz-linux'
-error: command failed to execute correctly
-(6/6) Updating the info directory file...
+:: Proceed with installation? [Y/n] error: Partition / too full: 6047 blocks needed, 5114 blocks free
+error: failed to commit transaction (not enough free disk space)
+
+Errors occurred, no packages were upgraded.
 
 -------------------------------------------------------------------------
                     Formating Disk
@@ -166,9 +143,9 @@ The operation has completed successfully.
 -------------------------------------------------------------------------
 mkfs.fat 4.2 (2021-01-31)
 mke2fs 1.46.5 (30-Dec-2021)
-Discarding device blocks:         0/117137915  5767168/117137915 12582912/117137915 18874368/117137915 25690112/117137915 31981568/117137915 38797312/117137915 45613056/117137915 52428800/117137915 57671680/117137915 61865984/117137915 67108864/117137915 72351744/117137915 78643200/117137915 85983232/117137915 92274688/117137915 99090432/117137915105906176/117137915112197632/117137915                   done                            
+Discarding device blocks:         0/117137915  6815744/117137915 13631488/117137915 20447232/117137915 27262976/117137915 32505856/117137915 37224448/117137915 42991616/117137915 48758784/117137915 55574528/117137915 61865984/117137915 68157440/117137915 74448896/117137915 81264640/117137915 87031808/117137915 93323264/117137915100139008/117137915106954752/117137915113770496/117137915                   done                            
 Creating filesystem with 117137915 4k blocks and 29286400 inodes
-Filesystem UUID: 48d532fd-9e18-4d31-8402-f91f0a4ec159
+Filesystem UUID: f49c59bd-7217-4573-a257-6a1dfd1cdce9
 Superblock backups stored on blocks: 
 	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208, 
 	4096000, 7962624, 11239424, 20480000, 23887872, 71663616, 78675968, 
@@ -700,7 +677,7 @@ error: command failed to execute correctly
   -> Running build hook: [keyboard]
   -> Running build hook: [fsck]
 ==> Generating module dependencies
-depmod: WARNING: could not open modules.builtin.modinfo at /tmp/mkinitcpio.HDJpMW/root/lib/modules/5.18.9-arch1-1: No such file or directory
+depmod: WARNING: could not open modules.builtin.modinfo at /tmp/mkinitcpio.N2Zqr1/root/lib/modules/5.18.9-arch1-1: No such file or directory
 ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux.img
 ==> Image generation successful
 ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
@@ -710,18 +687,18 @@ depmod: WARNING: could not open modules.builtin.modinfo at /tmp/mkinitcpio.HDJpM
   -> Running build hook: [udev]
   -> Running build hook: [modconf]
   -> Running build hook: [block]
-==> WARNING: Possibly missing firmware for module: qed
 ==> WARNING: Possibly missing firmware for module: qla1280
-==> WARNING: Possibly missing firmware for module: qla2xxx
 ==> WARNING: Possibly missing firmware for module: bfa
 ==> WARNING: Possibly missing firmware for module: wd719x
+==> WARNING: Possibly missing firmware for module: qla2xxx
 ==> WARNING: Possibly missing firmware for module: aic94xx
+==> WARNING: Possibly missing firmware for module: qed
 ==> WARNING: Possibly missing firmware for module: xhci_pci
   -> Running build hook: [filesystems]
   -> Running build hook: [keyboard]
   -> Running build hook: [fsck]
 ==> Generating module dependencies
-depmod: WARNING: could not open modules.builtin.modinfo at /tmp/mkinitcpio.36HEZR/root/lib/modules/5.18.9-arch1-1: No such file or directory
+depmod: WARNING: could not open modules.builtin.modinfo at /tmp/mkinitcpio.a0HnXu/root/lib/modules/5.18.9-arch1-1: No such file or directory
 ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux-fallback.img
 ==> Image generation successful
 (12/14) Reloading system bus configuration...
