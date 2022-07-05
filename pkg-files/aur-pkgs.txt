@@ -32,3 +32,4 @@ mongodb-compass
 pacman-bin
 spotify
 android-studio
+teamviewer
