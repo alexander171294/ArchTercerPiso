@@ -141,3 +141,6 @@ bindkey "^[[1;5D" beginning-of-line
 bindkey "^[[1;5C" end-of-line
 
 bindkey "\e[3~" delete-char
+
+export NVM_DIR="/usr/share/nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm

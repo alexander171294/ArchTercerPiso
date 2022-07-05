@@ -114,3 +114,4 @@ thunar-archive-plugin
 gtk-engine-murrine
 gtk-engines
 dbeaver
+galculator
