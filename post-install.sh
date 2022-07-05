@@ -30,3 +30,7 @@ cp -R fonts $HOME/.local/share
 sudo localectl set-locale LANG=es_ES.UTF-8
 git clone https://aur.archlinux.org/ulauncher.git && cd ulauncher && makepkg -is
 sudo usermod -aG docker ${USER}
+wget https://download.jetbrains.com/idea/ideaIC-2022.1.3.tar.gz
+mkdir -p $HOME/.tools
+tar -xzvf ideaIC-2022.1.3.tar.gz -C $HOME/.tools
+cp configs/desktops/intellij.desktop $HOME/.local/share/applications/intellij.desktop
