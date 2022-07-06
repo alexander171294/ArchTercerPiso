@@ -116,3 +116,4 @@ gtk-engines
 dbeaver
 galculator
 nm-connection-editor
+net-tools
