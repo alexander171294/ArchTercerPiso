@@ -33,3 +33,4 @@ pacman-bin
 spotify
 android-studio
 teamviewer
+bashmount

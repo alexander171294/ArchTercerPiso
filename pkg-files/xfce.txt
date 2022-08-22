@@ -2,4 +2,5 @@ xfce4
 xfce4-goodies
 pavucontrol
 qbittorrent
+udisks2
 --END OF MINIMAL INSTALL--
