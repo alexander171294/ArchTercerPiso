@@ -117,3 +117,5 @@ dbeaver
 galculator
 nm-connection-editor
 net-tools
+iwd
+dhcp
